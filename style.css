@@ -9,13 +9,26 @@ body {
 }
 
 .hero {
-    height: 525px;
+    height: fit-content;
     background-color: #1F2937;
 }
 
+.headerLinks > ul {
+    list-style: none;
+}
+
 .random {
-    height: 300px;
+    height: fit-content;
     background-color: #FFFFFF;
+}
+
+.infoPanels > ul {
+    list-style: none;
+}
+
+.panelImg {
+    height: 150px;
+    width: 150px;
 }
 
 .quote {
