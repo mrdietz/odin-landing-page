@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+    width: 55%;
+    background-color: #555555;
+}
+
+.hero {
+    height: 100px;
+    background-color: #1F2937;
+}
+
+.random {
+    height: 300px;
+    background-color: #FFFFFF;
+}
+
+.quote {
+    height: 300px;
+    background-color: #E5E7EB;
+}
+
+.cta {
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1F2937;
+}
