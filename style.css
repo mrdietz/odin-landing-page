@@ -1,11 +1,15 @@
+div {
+    border: red 1px dashed;
+}
+
 body {
     margin: auto;
-    width: 55%;
-    background-color: #555555;
+    width: 75%;
+    background-color: #000;
 }
 
 .hero {
-    height: 100px;
+    height: 525px;
     background-color: #1F2937;
 }
 
