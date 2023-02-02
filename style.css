@@ -89,10 +89,17 @@ body {
 .random {
     height: fit-content;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.infoPanels > ul {
+.infoPanels li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     list-style: none;
+    width: 200px;
 }
 
 .panelImg {
