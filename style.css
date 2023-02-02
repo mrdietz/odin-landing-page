@@ -2,24 +2,11 @@ div {
     border: red 1px dashed;
 }
 
-* {
-    font-family: 'Roboto';
-}
-
 body {
+    font-family: 'Roboto';
     margin: auto;
     width: 75%;
     background-color: #000;
-}
-
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-.headerLinks {
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 .hero {
@@ -27,19 +14,76 @@ body {
     background-color: #1F2937;
 }
 
+.headerRow {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerLinks > ul {
+    list-style: none;
+}
+
+.headerLinks {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.headerLinks li {
+    float: left;
+    margin: auto;
+    padding: 0 25px 15px 0;
+}
+
+.heroSBS {
+    width: 75%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 25px 0;
+    display: flex;
+}
+
+.heroImage img {
+    width: 500px;
+}
+
+.heroText {
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #heroHeadline {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 #heroSubtext {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
 }
 
-.headerLinks > ul {
-    list-style: none;
+.heroBtn {
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #FFF;
+    width: 120px;
+    height: 40px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: medium;
 }
 
 .random {
