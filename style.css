@@ -1,9 +1,7 @@
-div {
-    border: red 1px dashed;
-}
+
 
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     margin: auto;
     width: 75%;
     background-color: #000;
@@ -94,17 +92,36 @@ body {
     align-items: center;
 }
 
-.infoPanels li {
+.infoPanels ul {
+    margin: auto;
+    background-color: lightblue;
     display: flex;
     flex-direction: row;
     align-items: center;
     list-style: none;
-    width: 200px;
+    width: 60%;
+}
+
+.infopanels li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    border: solid 1px yellow;
 }
 
 .panelImg {
     height: 150px;
     width: 150px;
+    border: solid 5px blue;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.panelText{
+    background-color: lightgreen;
+    border: solid 1px red;
+    text-align: center;
 }
 
 .quote {
