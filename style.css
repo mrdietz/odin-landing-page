@@ -82,6 +82,8 @@ body {
     font-family: Roboto;
     font-weight: 600;
     font-size: medium;
+    border-radius: 5px;
+    border: none;
 }
 
 .random {
@@ -90,51 +92,105 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
+}
+
+#randomText {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .infoPanels ul {
     margin: auto;
-    background-color: lightblue;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     list-style: none;
     width: 60%;
-}
-
-.infopanels li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 150px;
-    border: solid 1px yellow;
+    padding-inline-start: 0px;
 }
 
 .panelImg {
+    border-radius: 15px;
     height: 150px;
     width: 150px;
-    border: solid 5px blue;
-    background-color: white;
+    border: solid 4px rgb(31, 101, 124);
     margin-bottom: 10px;
 }
 
-.panelText{
-    background-color: lightgreen;
-    border: solid 1px red;
+.panelText {
+    height: 60px;
     text-align: center;
+    padding: 0 30px 0 30px;
+}
+
+.panelCombo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote {
-    height: 300px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    height: 250px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 275px 100px 275px;
+}
+
+.attrib {
+    margin-top: 0;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .cta {
-    height: 200px;
+    height: 300px;
     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctaBox {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.ctaBox h3 {
+    margin: 0;
+    line-height: 0;
+}
+
+.ctaButton {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    color: #FFF;
+    font-size: 1.2em;
 }
 
 .footer {
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
     background-color: #1F2937;
+    color: #FFF;
+    box-align: center;
 }
